@@ -1,0 +1,14 @@
+<title>watchdog</title>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue@next"></script>
+<link href="main.css" rel="stylesheet">
+<div id="api" class="demo">
+
+<button @click="run">Reload</button><button @click="stchange" >{{ buttonname }}</button>
+<br>
+
+<img v-bind:src=url  v-on:load="load" v-show="disp > 0" :width=image >
+<br>
+</div>
+<script src="main.js"></script>
+
